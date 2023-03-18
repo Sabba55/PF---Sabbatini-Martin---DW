@@ -170,10 +170,9 @@ a{
     
     .nosotros_main_container1_title1{
         padding: 10px;
-    }
-    
-    .nosotros_main_container1_title1 h1{
-        text-align: center;
+        h1{
+            text-align: center;
+        }
     }
 
     .nosotros_main_container1_title1 p{
@@ -198,10 +197,9 @@ a{
     
     .nosotros_main_container2_title2{
         padding: 10px;
-    }
-    
-    .nosotros_main_container2_title2 h1{
-        text-align: center;
+        h1{
+            text-align: center;
+        }
     }
 
     .nosotros_main_container2_title2 p{
@@ -285,9 +283,10 @@ a{
     /* ~~~~~~~~~~~~~ ZONA CONTACTOS ~~~~~~~~~~~~~~~~~~~ */
     .bodega_section{
         display: none;
-    }
-    /* desactivamos para que no se vea la imagen */
-    .bodega_section img{
+        /* desactivamos para que no se vea la imagen */
+        img{
         display: none;
+        }
     }
+
 }

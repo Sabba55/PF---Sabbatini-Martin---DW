@@ -1,5 +1,3 @@
-/* No logre hacer que todo se posicione en la carpeta css :( */
-
 @charset "UTF-8";
 /* COMENZAMOS A USAR SCSS */
 /* ~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
@@ -542,8 +540,8 @@ a {
   /* ~~~~~~~~~~~~~ ZONA CONTACTOS ~~~~~~~~~~~~~~~~~~~ */
   .bodega_section {
     display: none;
+    /* desactivamos para que no se vea la imagen */
   }
-  /* desactivamos para que no se vea la imagen */
   .bodega_section img {
     display: none;
   }
