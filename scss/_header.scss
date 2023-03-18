@@ -1,0 +1,47 @@
+@import "background";
+
+/* ~~~~~~~~~~~~~~ HEADER ~~~~~~~~~~~~~~ */
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: $fondo-principal;
+}
+
+.logo{
+    max-width: 300px;
+}
+
+/* Primera aplicacion de scss para ordenar esta seccion*/
+.nav_list{
+    list-style-type: none;
+    display: flex;
+    gap: 3rem;
+    margin-bottom: 0px;
+    li{
+        a{
+            text-decoration: none;
+            color: white;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;        
+        }
+    }
+}
+
+.nav_list{
+    li{
+        a:hover{
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+            background-color: red;
+            padding: 5px;
+            border-radius: 5px;
+        }
+    }
+}
+
+.abrir_menu,
+.cerrar_menu{
+    display: none;
+    /* para que no se muestre */
+}

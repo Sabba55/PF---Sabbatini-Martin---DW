@@ -1,0 +1,46 @@
+@import "background";
+
+/* -------------------------------- GALERIA.HTML -------------------------------- */
+/* ~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~ */
+.div_argentina_title{
+    padding: 5px;
+    
+    h1{
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+        font-style: italic;
+        color: black;    
+        background-color: white;
+    }
+}
+
+
+.div_argentina_section{
+    height: auto;
+
+    /* -+- Propiedades de la caja -+- */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}   
+
+
+.argentina_section_caja{
+    flex-grow: 3;
+
+    img{
+        object-fit: cover;
+        width: 100%;
+        height: 100% ;
+    }
+}
+
+/* ~~~ CAJA HIJOS ~~~ */
+.caja{
+    width: 120px;
+    height: 250px;
+    margin: 5px;
+}

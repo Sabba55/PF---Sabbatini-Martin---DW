@@ -1,0 +1,80 @@
+@import "background";
+
+/* -------------------------------- CONTACTOS.HTML -------------------------------- */
+/* ~~~~~~~~~~~~~~ MAIN ~~~~~~~~~~~~~~ */
+/* posicionamos todo el main */
+.main_contacto{
+    padding: 15px;
+}
+
+/* title */
+.contacto_title h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border-radius: 4px;
+
+    background-color: white;
+    color: black;
+    font-style: italic;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/* acomodando la clase padre de bodega */
+.contacto_bodega{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    padding: 25px
+}
+
+/* acomodamos la imagen */
+.bodega_section{
+    display: flex;
+    justify-content: center;
+    img{
+        max-width: 65%;
+        height: auto;
+    }
+}
+
+/* comenzamos con la edicion del formulario */
+
+.aside_form_div{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 25rem;
+
+    label{
+        color: white;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight: bold;
+        font-style: italic;
+        font-size: 20px;
+    }
+}
+
+
+.form_div_input{
+    background-color: white;
+    border-radius: 7px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.aside_botones{
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    button:hover{
+        background-color: red;
+        color: black;
+        font-weight: bold;
+        border: white solid 1px;
+    }
+}

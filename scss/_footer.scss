@@ -1,0 +1,48 @@
+@import "background";
+
+/* ~~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~~ */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: $fondo-principal;
+    height: auto;
+    padding: 15px;
+}
+
+/* modificamos el loog del footer */
+.footer_div_logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    img{
+        height: 50px;
+    }
+}
+
+
+/* modificamos los iconos */
+.footer_div_redes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding-top: 10px;
+
+    a{
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+}
+
+.footer_div_redes a:hover{
+    background-color: yellow;
+    border-radius: 4px;
+}
+
+.footer_div_redes_img{
+    height: 25px;
+}
